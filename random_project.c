@@ -10,7 +10,7 @@ int main(){
 	srand(time(NULL));
 	
 	right = rand() % 100;
-	printf(correct);
+	printf("%d\n", correct);
 	return(0);
 }
 
