@@ -22,7 +22,7 @@ What has happened:
 					- 4:43pm Forgot \n and the first guess jammed with the next line. (fixed).
 
 8/29/2025 4:49pm - Fiddled with formatting and words to get what should be the final game for now. :D I HATE C FORMATTING
-
+					- 4:52pm nevermind, forgot \n for the 50th time.
 
 Expected Output:
 Hi, What is your name? Andy
