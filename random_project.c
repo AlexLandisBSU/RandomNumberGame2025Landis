@@ -28,7 +28,7 @@ int main(){
 			printf("correct! \n");
 		}
 	}
-	printf("Great Job!");
+	printf("Great Job! \n");
 	return(0); 
 }
 
