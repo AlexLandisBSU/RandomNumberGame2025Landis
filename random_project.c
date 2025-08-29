@@ -12,7 +12,7 @@ int main(){
 	
 	while(guess != right){ 
 		tries++;
-		printf("%d\n" Your guess: ", tries);
+		printf("Your guess: ", tries);
 		scanf("%d\n", &guess);
 		if(guess < right){
 			printf("too small \n");
