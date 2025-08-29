@@ -1,14 +1,12 @@
 # RandomNumberGame2025Landis
 
-1. Do imports,
-2. Test that I can function as a C programmer by running a Hello World.
-3. Prompt user for their name,
-4. Greet user
-5. Generate random number between 1 and 100
-6. Prompt user to guess the number
-7. Inform user that they were either too high, too low, or correct
-8. Prompt user to guess again if not correct
-9. repeat until user is correct.
+Current: (guessing before greeting)
+1. Add include (stdio, stdlib, time) -> (because I forget this too often)
+2. begin main as an int
+3. add int placeholders/variables for user guess, the correct answer, and number of attempts.
+4. generate a random seed with srand
+5. generate a random number 1-100
+6. 
 
 
 
@@ -17,7 +15,9 @@ What has happened:
 
 &nbsp;			and learned that printf required formatting: "%d\\n", in order for the variable to display.
 
-
+8/29/2025 4:24pm - Got a while-loop working but kept forgetting formating such as above-
+				also learned that the 1-100 might only be reaching 99, might have to add 1 to it during generation
+				
 
 
 

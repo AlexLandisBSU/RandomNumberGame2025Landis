@@ -4,8 +4,13 @@
 
 int main(){
 	int guess = -1; //hold input
-	int right; //read input
+	int right; //hold correct answer
 	int tries = 0; //hold number of attempts
+	
+	char name[20]; //
+	printf("Hello, what is your name? ");
+	scanf("%s", name);
+	printf("Hello, %s! Lets play a game." name);
 	
 	srand(time(NULL)); //random seed
 	right = rand() % 100; //random number 1-100 but might only go to 99
@@ -22,7 +27,7 @@ int main(){
 			printf("correct! \n");
 		}
 	}
-	printf("%d attempts: ", tries);
-	return(0);
+	printf("%d attempts were needed! \n", tries);
+	return(0); 
 }
 
