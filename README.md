@@ -21,6 +21,7 @@ What has happened:
 8/29/2025 4:39pm - Attempted to add name and struggled with formatting to put user's name between two texts.
 					- 4:43pm Forgot \n and the first guess jammed with the next line. (fixed).
 
+8/29/2025 4:49pm - Fiddled with formatting and words to get what should be the final game for now. :D I HATE C FORMATTING
 
 
 Expected Output:

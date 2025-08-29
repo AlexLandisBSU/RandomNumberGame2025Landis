@@ -28,7 +28,7 @@ int main(){
 			printf("correct! \n");
 		}
 	}
-	printf("%d attempts were needed! \n", tries);
+	printf("%d Great Job!");
 	return(0); 
 }
 
