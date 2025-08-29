@@ -8,7 +8,7 @@ int main(){
 	int tries = 0; //hold number of attempts
 	
 	srand(time(NULL)); //random seed
-	right = rand() % 100; //random number 1-100
+	right = rand() % 100; //random number 1-100 but might only go to 99
 	
 	while(guess != right){ 
 		tries++;
@@ -22,7 +22,7 @@ int main(){
 			printf("correct! \n");
 		}
 	}
-	printf(tries, " attempts were needed");
+	printf("%d attempts: ", tries);
 	return(0);
 }
 
