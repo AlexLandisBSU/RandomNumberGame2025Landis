@@ -19,7 +19,7 @@ What has happened:
 				also learned that the 1-100 might only be reaching 99, might have to add 1 to it during generation
 
 8/29/2025 4:39pm - Attempted to add name and struggled with formatting to put user's name between two texts.
-
+					- 4:43pm Forgot \n and the first guess jammed with the next line. (fixed).
 
 
 

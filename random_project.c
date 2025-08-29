@@ -10,7 +10,7 @@ int main(){
 	char name[20]; //hold name with 20 character limit
 	printf("Hello, what is your name? ");
 	scanf("%s", name);
-	printf("Hello, %s! Lets play a game", name);
+	printf("Hello, %s! Lets play a game \n", name);
 	
 	srand(time(NULL)); //random seed
 	right = rand() % 100; //random number 1-100 but might only go to 99
