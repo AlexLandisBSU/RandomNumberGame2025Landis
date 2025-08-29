@@ -11,7 +11,7 @@ int main(){
 	printf("Hello, what is your name? ");
 	scanf("%s", name);
 	printf("Hello, %s! ", name);
-	printf("Let's play a game.");
+	printf("Let's play a game. \n");
 	
 	srand(time(NULL)); //random seed
 	right = rand() % 100; //random number 1-100 but might only go to 99
