@@ -12,8 +12,8 @@ int main(){
 	
 	while(guess != right){ 
 		tries++;
-		printf("Your guess: ", tries);
-		scanf("%d\n", &guess);
+		printf("%d) Your guess: ", tries);
+		scanf("%d", &guess);
 		if(guess < right){
 			printf("too small \n");
 		} else if (guess > right){
